@@ -79,6 +79,11 @@ def icon(kind, x, y):
         d.rectangle((x+11,y+11,x+35,y+35),outline=c,width=2); d.rectangle((x+17,y+17,x+29,y+29),outline=RED,width=2)
         for p in (15,21,27,33):
             d.line((x+p-4,y+5,x+p-4,y+11),fill=c,width=2); d.line((x+p-4,y+35,x+p-4,y+41),fill=c,width=2); d.line((x+5,y+p-4,x+11,y+p-4),fill=c,width=2); d.line((x+35,y+p-4,x+41,y+p-4),fill=c,width=2)
+    elif kind == 'scales':
+        d.line((x+24,y+6,x+24,y+39),fill=c,width=2); d.line((x+12,y+12,x+36,y+12),fill=c,width=2)
+        d.line((x+12,y+12,x+7,y+26),fill=c,width=2); d.line((x+36,y+12,x+41,y+26),fill=c,width=2)
+        d.arc((x+2,y+22,x+12,y+31),0,180,fill=RED,width=2); d.arc((x+36,y+22,x+46,y+31),0,180,fill=RED,width=2)
+        d.line((x+17,y+39,x+31,y+39),fill=c,width=3); d.line((x+20,y+35,x+28,y+35),fill=c,width=2)
 
 data = json.loads((ROOT/'stories.json').read_text(encoding='utf-8'))
 total = len(data['cards']) + len(data['briefs'])
@@ -106,11 +111,11 @@ for i, card in enumerate(data['cards']):
     yy=y+14
     for line in hl: d.text((x+68,yy),line,font=hf,fill=INK); yy += hf.size+2
     detail_top=max(y+65, yy+3)
-    df, dl = fit_lines(card['detail'],12,False,cw-16,3,10)
+    df, dl = fit_lines(card['detail'],12,False,cw-16,4,9)
     line_h=df.size+2
     while len(dl)*line_h > y+ch-7-detail_top and df.size>9:
-        df,dl=fit_lines(card['detail'],df.size-1,False,cw-16,3,9); line_h=df.size+2
-    for line in dl[:3]: d.text((x+8,detail_top),line,font=df,fill=MUTED); detail_top += line_h
+        df,dl=fit_lines(card['detail'],df.size-1,False,cw-16,4,9); line_h=df.size+2
+    for line in dl[:4]: d.text((x+8,detail_top),line,font=df,fill=MUTED); detail_top += line_h
 
 # Region summary
 region_line = 'WHERE IT HAPPENED — ' + ' · '.join(f'{r} {regions[r]}' for r in ORDER)
@@ -127,11 +132,10 @@ for col in range(cols):
         idx=col*per+row
         if idx>=len(briefs): continue
         item=briefs[idx]; number=13+idx
-        y=607+row*24
+        y=607+row*20
         nf=font(11,True); d.text((x,y),str(number)+'.',font=nf,fill=RED)
-        tf, lines=fit_lines(item['text'],11,False,294,3,10)
-        # Keep each compact brief within its 25px row, tightening its line spacing if needed.
-        line_h=min(11,tf.size+1)
+        tf, lines=fit_lines(item['text'],10,False,294,2,9)
+        line_h=10
         for j,line in enumerate(lines[:3]): d.text((x+24,y+j*line_h),line,font=tf,fill=INK)
 
 # Numbers band

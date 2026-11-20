@@ -1,17 +1,17 @@
 {
  "cards": [
-  {"n":1,"region":"ASIA-PACIFIC","icon":"flags","headline":"XI, TRUMP & PUTIN MEET IN SHENZHEN","detail":"APEC summit: Xi pledges open trade and a $20M fund; Trump pushes a three-way nuclear deal and rejects global AI rules."},
+  {"n":1,"region":"ASIA-PACIFIC","icon":"flags","headline":"XI, TRUMP & PUTIN MEET IN SHENZHEN","detail":"APEC summit: Xi pledges open trade and a $20M fund; Trump pushes a three-way nuclear deal and rejects global AI rules. The three leaders issue a joint peace declaration, silent on Ukraine and Iran."},
   {"n":2,"region":"AMERICAS","icon":"gamepad","headline":"GTA VI LAUNCHES WORLDWIDE","detail":"After a 13-year wait the game rolls out from New Zealand at midnight; reviews average 99/100, 2.3M watch on Twitch."},
-  {"n":3,"region":"MIDDLE EAST","icon":"tank","headline":"ISRAELI TANKS CROSS GAZA CEASEFIRE LINE","detail":"Rare ground incursion past the Yellow Line; UK, Canada, Australia & Italy demand aid access to flooded Gaza."},
+  {"n":3,"region":"MIDDLE EAST","icon":"tank","headline":"ISRAELI TANKS CROSS GAZA CEASEFIRE LINE","detail":"IDF ground operation in Nuseirat ends Thursday after a day; at least four more people are killed across Gaza on Thursday."},
   {"n":4,"region":"EUROPE","icon":"bridge","headline":"CRIMEAN BRIDGE ATTACKED AGAIN","detail":"Traffic halted after a third hit on the bridge this week, Crimea's Russian-installed chief says."},
   {"n":5,"region":"ASIA-PACIFIC","icon":"cyclone","headline":"CYCLONE AKVAN NEARS INDIA'S EAST COAST","detail":"Landfall expected between Machilipatnam and Puri; Odisha shuts schools as the storm closes in."},
   {"n":6,"region":"AMERICAS","icon":"chart","headline":"DOW FALLS 561 AS FED TURNS HAWKISH","detail":"Fed minutes flag more rate hikes; the dollar hits a 19-month high while gold, silver and oil slide."},
   {"n":7,"region":"EUROPE","icon":"frame","headline":"VAN GOGH SELLS FOR A RECORD $190.4M","detail":"The sale follows a public row over the painting's Nazi-era history."},
   {"n":8,"region":"AMERICAS","icon":"satellite","headline":"VOYAGER 1 REACHES A 'LIGHT-DAY'","detail":"NASA's farthest probe is now so distant that its radio signal takes a full day to reach Earth."},
-  {"n":9,"region":"EUROPE","icon":"vault","headline":"FINLAND LICENSES FIRST NUCLEAR-WASTE VAULT","detail":"The world's first repository for spent nuclear fuel is cleared to begin operating."},
+  {"n":9,"region":"ASIA-PACIFIC","icon":"scales","headline":"WORLD COURT: MYANMAR COMMITTED GENOCIDE","detail":"ICJ rules 9–6 that the 2017 crackdown on the Rohingya was genocide — the first time the court has held a state guilty; orders return home and compensation."},
   {"n":10,"region":"MIDDLE EAST","icon":"rocket","headline":"ROCKET STRIKE KILLS 53 SOLDIERS IN YEMEN","detail":"Houthi attack on an army camp; Saudi air alerts were raised over Riyadh, then lifted."},
   {"n":11,"region":"MIDDLE EAST","icon":"ballot","headline":"EISENKOT ASKED TO FORM ISRAEL'S GOVERNMENT","detail":"The president taps Gadi Eisenkot as prime minister-designate, bypassing Benjamin Netanyahu."},
-  {"n":12,"region":"AMERICAS","icon":"chip","headline":"ANTHROPIC EYES $1.4 TRILLION MARKET DEBUT","detail":"The Claude maker is poised for one of the largest stock-market listings ever."}
+  {"n":12,"region":"AMERICAS","icon":"chip","headline":"ANTHROPIC'S RECORD $81.3BN IPO DEBUTS","detail":"Claude maker lists on Nasdaq as ANT at $83; shares open at $111.50 and close up 17% — the biggest IPO ever."}
  ],
  "briefs": [
   {"region":"EUROPE","text":"EU proposes a €45bn loan for Ukraine, to be repaid once Russia pays reparations"},
@@ -19,14 +19,12 @@
   {"region":"EUROPE","text":"Russia and Ukraine swap drone attacks as Abu Dhabi peace talks continue"},
   {"region":"EUROPE","text":"Zelensky accuses the US of blocking paid-for missile deliveries to Ukraine"},
   {"region":"EUROPE","text":"Estonia will close its border crossings with Russia from December"},
-  {"region":"EUROPE","text":"Prague fills with protesters demanding media independence"},
   {"region":"EUROPE","text":"France sees a fourth straight weekend of cost-of-living protests"},
   {"region":"EUROPE","text":"General strike in Spain disrupts ports and factories"},
   {"region":"EUROPE","text":"Suspected Russian spy arrested in Germany in a Palantir espionage case"},
   {"region":"AMERICAS","text":"US sanctions three people and three entities over alleged Hezbollah funding"},
   {"region":"ASIA-PACIFIC","text":"White House pursues a loan package of more than $2bn with the Philippines"},
   {"region":"AMERICAS","text":"US publishes a 53-page account of $12bn in Venezuelan oil and mineral revenue"},
-  {"region":"MIDDLE EAST","text":"Tanker reported hit in the Strait of Hormuz; crew safe, UKMTO warns shipping"},
   {"region":"ASIA-PACIFIC","text":"Japan's PM Takaichi holds talks with Putin on the APEC sidelines"},
   {"region":"ASIA-PACIFIC","text":"South Korea's President Lee pitches an AI and energy role at APEC"},
   {"region":"AMERICAS","text":"Canada's Carney recalibrates China ties while seeking the right deal with the US"},
@@ -34,8 +32,6 @@
   {"region":"ASIA-PACIFIC","text":"India's Congress demands an inflation white paper from Modi's government"},
   {"region":"ASIA-PACIFIC","text":"India and Japan review defence ties at their 2+2 ministerial dialogue"},
   {"region":"ASIA-PACIFIC","text":"Goldman Sachs upgrades India to 'overweight' amid record foreign inflows"},
-  {"region":"ASIA-PACIFIC","text":"Delhi schools reopen as GRAP-III air-pollution curbs are lifted"},
-  {"region":"ASIA-PACIFIC","text":"Fire set to Professor Yunus's ancestral home in Chattogram, Bangladesh"},
   {"region":"AMERICAS","text":"Panama makes a second arrest over the attack on a journalist's home"},
   {"region":"AFRICA","text":"Cocaine and millions of pills seized in eastern Libya, officials say"},
   {"region":"AFRICA","text":"Kenya's drought deepens a milk shortage and pushes consumer prices up"},
@@ -45,8 +41,17 @@
   {"region":"AMERICAS","text":"American actor Stacy Keach dies at 85"},
   {"region":"ASIA-PACIFIC","text":"BTS open their Asia tour in Kaohsiung as HYBE eyes a Japanese agency"},
   {"region":"ASIA-PACIFIC","text":"India begin their first Test against New Zealand in Wellington"},
-  {"region":"ASIA-PACIFIC","text":"Sindhu returns to badminton's world top five; Lakshya Sen joins the top ten"},
-  {"region":"ASIA-PACIFIC","text":"Australian retailer General Pants Co enters voluntary administration"}
+  {"region":"EUROPE","text":"Finland licenses the world's first nuclear-waste vault to begin operating"},
+  {"region":"AFRICA","text":"Migrant boat sinks off Senegal; dozens missing from about 100 aboard"},
+  {"region":"AMERICAS","text":"US Senate rejects Iran war-powers resolution 51–48"},
+  {"region":"EUROPE","text":"Denmark approves Greenland–US security pact in a unanimous vote"},
+  {"region":"AMERICAS","text":"Walmart revenue hits $188.8bn as value shopping drives growth"},
+  {"region":"AMERICAS","text":"US defence chief Hegseth unveils military pact with Venezuela"},
+  {"region":"ASIA-PACIFIC","text":"Mongolia's president resigns; parliament accepts it on Thursday"},
+  {"region":"AFRICA","text":"Ethiopia and Eritrea mass troops along their border"},
+  {"region":"EUROPE","text":"COP31 ministers meet in Antalya to unblock climate talks"},
+  {"region":"MIDDLE EAST","text":"ADNOC tanker attacked in Hormuz; 11 hurt, one crew member missing"},
+  {"region":"ASIA-PACIFIC","text":"Violence spreads to 28 districts across Bangladesh"}
  ],
  "numbers": [
   ["99/100","GTA VI's average review score"],
@@ -54,7 +59,7 @@
   ["$190.4M","record price for a Van Gogh"],
   ["€45BN","EU loan proposed for Ukraine"],
   ["-561","Dow Jones points in a day"],
-  ["$1.4TN","Anthropic's expected debut value"]
+  ["$81.34BN","record Anthropic IPO"]
  ],
- "date_check": "Nvidia's $115.8bn quarter (17 Nov) · the US strike on Qeshm Island and Iran's strikes on Kuwait & Bahrain (18 Nov) · Peltola's Alaska win giving Democrats the Senate 56-44 (18 Nov) · the US losing its measles-free status (18 Nov) · the Russian plane crash in Siberia (18 Nov) · the Knesset electing Speaker Kahana (18 Nov)"
+ "date_check": "Nvidia's $115.8bn quarter (17 Nov) · the US strike on Qeshm Island and Iran's strikes on Kuwait & Bahrain (18 Nov) · Peltola's Alaska win giving Democrats the Senate 56-44 (18 Nov) · the US losing its measles-free status (18 Nov) · the Russian plane crash in Siberia (18 Nov) · the Knesset electing Speaker Kahana (18 Nov) · Trump's posthumous pardon of Pete Rose (20 Nov) · the DOJ move to drop the Peltola challenge (20 Nov) · Anthropic's $83 IPO price set (18 Nov; first trade 19 Nov)"
 }
